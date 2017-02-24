@@ -1,0 +1,6 @@
+ATTR_STATUS = "status"
+ATTR_STATUS_ACTIVE = "active"
+ATTR_STATUS_SUSPENDED = "suspended"
+ATTR_STATUS_DELETED = "deleted"
+ATTR_STATUS_TRANSFERRED = "transferred"
+
