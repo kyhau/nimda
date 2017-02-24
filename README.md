@@ -2,6 +2,8 @@
 
 Some helper functions for on/off boarding automation.
 
+[![Build Status](https://travis-ci.org/kyhau/nimda.svg?branch=master)](https://travis-ci.org/kyhau/nimda)
+
 ## Features
 
 #### 1. Reporting
