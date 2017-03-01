@@ -7,7 +7,6 @@ coverage:
     project: true
     patch: false
     changes: false
-
 comment:
   layout: "header, diff"
   behavior: default

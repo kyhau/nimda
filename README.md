@@ -3,6 +3,7 @@
 Some helper functions for on/off boarding automation.
 
 [![Build Status](https://travis-ci.org/kyhau/nimda.svg?branch=master)](https://travis-ci.org/kyhau/nimda)
+[![codecov](https://codecov.io/gh/kyhau/nimda/branch/master/graph/badge.svg)](https://codecov.io/gh/kyhau/nimda)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://en.wikipedia.org/wiki/MIT_License)
 
 ## Features
