@@ -7,8 +7,6 @@ coverage:
     project: true
     patch: false
     changes: false
-codecov:
-  token: dafb63db-088d-49e4-93bb-5b65abf8e9da
 comment:
   layout: "header, diff"
   behavior: default
