@@ -35,7 +35,7 @@ def read_config_from_argv(argv):
     """
     parser = argparse.ArgumentParser(description='Butler-Alpha')
     parser.add_argument('-c', '--config', metavar='CONFIG_INI',
-                        help='config.ini file')
+                        help='config.ini file', required=True)
     parser.add_argument('-o', '--offboard', metavar='USER_NAME', default=None,
                         help='User to be off-boarded for all services')
     parser.add_argument('-t', '--transfer', metavar='USER_NAME', default=None,
@@ -45,7 +45,7 @@ def read_config_from_argv(argv):
     # read from config
     if not os.path.exists(args.config):
         print('Config file {} not found'.format(args.config))
-        return None
+        return None, None
 
     configs = configparser.ConfigParser()
     configs.read(args.config)
