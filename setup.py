@@ -11,6 +11,7 @@ __requirements__ = [
     'boto3==1.4.4',         # dynamodb
     'jira==1.0.10',         # jira
     'pybitbucket==0.12.0',  # bitbucket
+    'requests-oauthlib==0.8.0', # pybitbucket dependency
     'six==1.10.0',
 ]
 
