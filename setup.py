@@ -9,7 +9,7 @@ __summary__ = "Admin task helper"
 __author__ = "Kay Hau"
 __requirements__ = [
     'boto3==1.13.2',         # dynamodb
-    'jira==1.0.10',         # jira
+    'jira==2.0.0',         # jira
     'pybitbucket==0.12.0',  # bitbucket
     'requests-oauthlib==0.8.0', # pybitbucket dependency
     'six==1.14.0',
